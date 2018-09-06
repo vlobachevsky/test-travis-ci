@@ -22,4 +22,7 @@
         <java jar="build/jar/HelloWorld.jar" fork="true"/>
     </target>
 
+    <target name="test" depends="clean, complile, jar, run">
+    </target>
+
 </project>
